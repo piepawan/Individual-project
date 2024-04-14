@@ -1,0 +1,194 @@
+/* Resetting default browser styles */
+body, h1, h2, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  section ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  section ul li {
+    margin-bottom: 20px;
+  }
+  
+  section ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+/* Resetting default browser styles */
+body, h1, h2, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    width: 200px; /* Increased size */
+    border-radius: 50%;
+  }
+  
+  header h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 15px 0; /* Increased padding */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 30px; /* Increased margin */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  .agent-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .agent-description {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .agent-description h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .agent-description p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .agent-photo {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .agent-photo img {
+    width: 250px; /* Increased size */
+    border-radius: 10px;
+  }
+  
